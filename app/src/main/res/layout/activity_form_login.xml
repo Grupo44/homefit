@@ -28,8 +28,8 @@
     <EditText
         android:id="@+id/edit_cpf"
         style="@style/Edit_Text"
-        android:hint="CPF"
-        android:drawableRight="@drawable/ic_cpf"
+        android:hint="Email"
+        android:drawableRight="@drawable/ic_email"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         app:layout_constraintTop_toTopOf="@id/containerComponents"
