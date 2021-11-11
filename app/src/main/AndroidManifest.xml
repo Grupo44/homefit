@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Homefit">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".FormCadastro"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".FormLogin"
             android:exported="true"
