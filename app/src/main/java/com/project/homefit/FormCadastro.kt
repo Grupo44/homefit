@@ -3,6 +3,7 @@ package com.project.homefit
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import com.google.android.material.snackbar.Snackbar
 import android.widget.EditText;
@@ -43,10 +44,13 @@ class FormCadastro : AppCompatActivity() {
                  peso = edit_peso.getText().toString();
 
                 if(nome.isEmpty() || email.isEmpty() || senha.isEmpty()
-                    || idade.isEmpty() || altura.isEmpty()|| peso.isEmpty()){
+                    || idade.isEmpty() || altura.isEmpty()|| peso.isEmpty()) {
 
-                    Snackbar snackbar = Snackbar.nake(v,mensagem[0],Snackbar.LENGTH_SHORT );
-                     snackbar.setBackgroudTint(Color.WHITE);
+                    Snackbar snackbar = Snackbar . nake (v, mensagem[0], Snackbar.LENGTH_SHORT);
+                    snackbar.setBackgroudTint(Color.WHITE);
+                    snackbar.setTextColor(Color.BLACK);
+                    snackbar.show();
+                }else{
 
                 }
             }
